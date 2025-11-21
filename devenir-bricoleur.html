@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devenir Bricoleur</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <nav>
+        <div class="logo">Bricorapide</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="trouver-bricole.html">Trouver un bricoleur</a></li>
+            <li><a href="devenir-bricoleur.html">Devenir bricoleur</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="form-section">
+    <h2>Inscription bricoleur (Gratuite)</h2>
+    <p>Remplissez ce formulaire pour proposer vos services et gagner de l'argent facilement.</p>
+
+    <form class="form-card">
+        <label>Nom complet</label>
+        <input type="text" placeholder="Votre nom" required>
+
+        <label>Numéro de téléphone</label>
+        <input type="tel" placeholder="Votre numéro WhatsApp" required>
+
+        <label>Type de bricole proposée</label>
+        <select required>
+            <option>Peinture</option>
+            <option>Plomberie</option>
+            <option>Maçonnerie</option>
+            <option>Électricité</option>
+            <option>Jardinage</option>
+            <option>Autre</option>
+        </select>
+
+        <label>Votre disponibilité</label>
+        <input type="text" placeholder="Tous les jours, week-ends seulement, etc." required>
+
+        <button type="submit" class="btn-primary">Valider mon inscription</button>
+    </form>
+</section>
+</body>
+</html>
